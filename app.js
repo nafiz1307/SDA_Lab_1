@@ -5,6 +5,6 @@ app.get('/',(req,res)=>{
     res.send('Welcome to Azure')
 })
 
-app.listen(7000,()=>{
-    console.log("Server is running on port 7000")
+app.listen(8080,()=>{
+    console.log("Server is running on port 8000")
 })
